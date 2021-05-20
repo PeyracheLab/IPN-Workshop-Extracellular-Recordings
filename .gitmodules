@@ -1,0 +1,3 @@
+[submodule "ipn-kilosort"]
+	path = ipn-kilosort
+	url = https://github.com/PeyracheLab/ipn-kilosort
