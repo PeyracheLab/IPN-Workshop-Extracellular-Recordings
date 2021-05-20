@@ -24,7 +24,7 @@ August 9-13, 2021
 
 1. [Data Thalamus-CA1](https://www.dropbox.com/s/7r1wxs9s1zcc1q4/A2926-200311.tar.gz?dl=1)
 2. [Neuroscope](neuroscope.md)
-3. Kilosort code
-4. Kluster 
-5. Tuning curves
+3. [Kilosort code](https://github.com/PeyracheLab/ipn-kilosort)
+4. [Kluster](kluster.md)
+5. [neuroseries] ()
 6. Brainstorm
