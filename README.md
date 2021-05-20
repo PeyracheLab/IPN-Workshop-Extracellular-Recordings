@@ -26,5 +26,5 @@ August 9-13, 2021
 2. [Neuroscope](neuroscope.md)
 3. [Kilosort code](https://github.com/PeyracheLab/ipn-kilosort)
 4. [Kluster](kluster.md)
-5. [neuroseries] ()
+5. [neuroseries] (https://github.com/gviejo/ipn-neuroseries)
 6. Brainstorm
