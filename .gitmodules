@@ -1,3 +1,6 @@
 [submodule "ipn-kilosort"]
 	path = ipn-kilosort
 	url = https://github.com/PeyracheLab/ipn-kilosort
+[submodule "ipn-neuroseries"]
+	path = ipn-neuroseries
+	url = https://github.com/gviejo/ipn-neuroseries
