@@ -30,4 +30,4 @@ August 9-13, 2021
 3. [Kilosort code](ipn_kilosort.md)
 4. [Kluster](kluster.md)
 5. [neuroseries](ipn_neuroseries.md)
-6. Brainstorm
+6. [Brainstorm](ipn_brainstorm.md)
