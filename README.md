@@ -9,7 +9,7 @@
 - Exploratory data analysis and visualization, and relationships between spikes and LFPs (e.g. Brainstorm - CellExplorer and scripting)
 
 ## Dataset
-Here is the shared [*dataset*](https://utoronto-my.sharepoint.com/:f:/r/personal/sara_mahallati_mail_utoronto_ca/Documents/PHD/AA-Postdoc/summerschool/IPN-Workshop-dataset?csf=1&web=1&e=I8wqUd). for now only shared between the instructors. 
+Here is the shared [*dataset*](https://utoronto-my.sharepoint.com/:f:/g/personal/sara_mahallati_mail_utoronto_ca/EtxU7ooHfqNKuPZ3lpbE7O8BtZkkMn1k2vf9D5grUUM4IA?e=AHPRMW). for now only shared between the instructors. 
 
 
 ### INSTRUCTORS: 
