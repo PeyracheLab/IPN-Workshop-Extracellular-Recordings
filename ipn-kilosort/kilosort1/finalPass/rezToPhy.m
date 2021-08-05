@@ -1,4 +1,4 @@
-
+% latest update: 2021 08 05 SM
 function [spikeTimes, clusterIDs, amplitudes, templates, templateFeatures, ...
     templateFeatureInds, pcFeatures, pcFeatureInds] = rezToPhy(rez, savePath)
 % pull out results from kilosort's rez to either return to workspace or to
@@ -94,6 +94,8 @@ if ~isempty(savePath)
     %writeNPY(connected, fullfile(savePath, 'connected.npy'));
 %     writeNPY(Fs, fullfile(savePath, 'Fs.npy'));
     writeNPY([xcoords(conn) ycoords(conn)], fullfile(savePath, 'channel_positions.npy'));
+    
+    writeNPY(rez.ops.kcoords, fullfile(savePath, 'channel_shanks.npy'));
     
     writeNPY(templateFeatures, fullfile(savePath, 'template_features.npy'));
     writeNPY(templateFeatureInds'-1, fullfile(savePath, 'template_feature_ind.npy'));% -1 for zero indexing
