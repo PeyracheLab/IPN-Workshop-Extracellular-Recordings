@@ -134,7 +134,7 @@ fprintf('found %d good units \n', sum(rez.good>0))
 %% export Phy files
 % write to Phy
 %fprintf('Saving results to Phy  \n')
-%rezToPhy(rez, rootZ);
+rezToPhy(rez, rootZ);
 
 
 %% export Neurosuite files
