@@ -11,6 +11,27 @@
 ## Dataset
 Here is the shared [*dataset*](https://utoronto-my.sharepoint.com/:f:/g/personal/sara_mahallati_mail_utoronto_ca/EtxU7ooHfqNKuPZ3lpbE7O8BtZkkMn1k2vf9D5grUUM4IA?e=AHPRMW). for now only shared between the instructors. 
 
+## Installation insructions
+You have two options: 
+# Virtual Machine
+ 
+# Your machine
+Programming languages required: 
+- MATLAB2019 upwards
+- Python
+Please download CellExplorer toolbox from here and add it to the MATLAB path. 
+Install Phy in your intended environment with the following commands: 
+```
+conda activate EPhysWorkshop
+conda create -n EPhysWorkshop python=3.7 pip numpy matplotlib scipy scikit-learn h5py pyqt cython pillow -y
+pip install phy --pre --upgrade
+```
+
+
+
+
+
+
 
 ### INSTRUCTORS: 
   - Sara Mahallati, PhD, 
