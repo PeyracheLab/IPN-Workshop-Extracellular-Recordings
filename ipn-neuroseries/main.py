@@ -9,7 +9,7 @@ from wrappers import *
 import sys
 
 
-data_directory = '/home/guillaume/Dropbox (Peyrache Lab)/SummerSchool/A2926-200311'
+data_directory = '/home/ipn/A2929-200711'
 
 episodes = ['sleep', 'wake']
 events = ['1']

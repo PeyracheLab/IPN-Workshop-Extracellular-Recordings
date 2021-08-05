@@ -188,7 +188,7 @@ end
 %     keyboard
 % end
 
-gpuDevice([])
+%gpuDevice([])
 
 fprintf('\n'); toc(t1)
 fprintf('\nComplete!')

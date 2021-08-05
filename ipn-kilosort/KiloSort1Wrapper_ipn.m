@@ -53,9 +53,6 @@ elseif ~exist(fullfile(basepath,[basename,'.dat']))
     return
 end
 
-%% Creates a channel map file
-disp('Creating ChannelMapFile')
-createChannelMapFile_KSW(basepath,basename,'staggered');
 
 
 
@@ -71,19 +68,30 @@ ops = Kilosort1Configuration(XMLFilePath);
 addpath(genpath('kilosort1'));
 %addpath('~/GitHub/npy-matlab/npy-matlab') % for converting to Phy
 
-rootZ = basepath; % the raw data binary file is in this folder
+
 mkdir('tmp')
 
 ops.trange = [0 Inf]; % time range to sort
 
 
+%% Creates a channel map file
+disp('Creating ChannelMapFile')
+
+rootZ = basepath; % the raw data binary file is in this folder
+
 % is there a channel map file in this folder?
-fs = dir(fullfile(rootZ, 'chan*.mat'));if ~isempty(fs)
+fs = dir(fullfile(rootZ, 'chan*.mat'));
+if ~isempty(fs)
     ops.chanMap = fullfile(rootZ, fs(1).name);
+    load(fullfile(rootZ, fs(1).name));
 else
     error('No chan Map file!')
+    createChannelMapFile_KSW(basepath,basename,'staggered');
+    fs = dir(fullfile(rootZ, 'chan*.mat'));
+    load(fullfile(rootZ, fs(1).name));
 end
-load(fullfile(basepath,'chanMap.mat'))
+%load(fullfile(basepath,'chanMap.mat'))
+
 ops.NchanTOT            = length(connected); % total number of channels
 ops.Nchan = sum(connected); % number of active channels
 
@@ -94,7 +102,7 @@ fprintf('Looking for data inside %s \n', rootZ)
 [rez, DATA, uproj] = preprocessData(ops); % preprocess data and extract spikes for initialization
 rez                = fitTemplates(rez, DATA, uproj);  % fit templates iteratively
 rez                = fullMPMU(rez, DATA);% extract final spike times (overlapping extraction)
-load('chanMap.mat')
+%load('chanMap.mat')
 
 rez.connected = connected;
 rez.ops.root = pwd;
@@ -107,8 +115,10 @@ save('rez.mat','rez','-v7.3');
 
 %% export Phy files
 % write to Phy
-%fprintf('Saving results to Phy  \n')
-rezToPhy(rez, rootZ);
+fprintf('Saving results to Phy  \n')
+savepath = fullfile(rootZ, 'Phy');
+mkdir(savepath);
+rezToPhy(rez, savepath);
 
 
 %% export Neurosuite files
