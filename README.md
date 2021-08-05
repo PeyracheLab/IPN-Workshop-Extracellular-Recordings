@@ -16,10 +16,8 @@ You have two options:
 #### 1) Virtual Machine
  
 #### 2) Your machine
-Programming languages required: 
-- MATLAB2019 upwards
-- Python
-- 
+You will need MATLAB2019 upwards and Python. University students have a MATLAB license through their universities and can log in to Mathworks and download latest version of Matlab. We recommend installing Python through Anaconda distribution. 
+ 
 Please download CellExplorer toolbox from [here](https://github.com/petersenpeter/CellExplorer/archive/master.zip) and add it to the MATLAB path. 
 
 Install Phy in your intended environment with the following commands: 
