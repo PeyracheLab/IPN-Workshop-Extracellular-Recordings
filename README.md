@@ -22,8 +22,8 @@ Please download CellExplorer toolbox from [here](https://github.com/petersenpete
 
 Install Phy in your intended environment with the following commands: 
 ```
-conda activate EPhysWorkshop
 conda create -n EPhysWorkshop python=3.7 pip numpy matplotlib scipy scikit-learn h5py pyqt cython pillow -y
+conda activate EPhysWorkshop
 pip install phy --pre --upgrade
 ```
 
