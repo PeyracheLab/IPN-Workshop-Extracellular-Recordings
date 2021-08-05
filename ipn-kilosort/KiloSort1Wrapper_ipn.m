@@ -108,7 +108,7 @@ save('rez.mat','rez','-v7.3');
 %% export Phy files
 % write to Phy
 %fprintf('Saving results to Phy  \n')
-%rezToPhy(rez, rootZ);
+rezToPhy(rez, rootZ);
 
 
 %% export Neurosuite files
