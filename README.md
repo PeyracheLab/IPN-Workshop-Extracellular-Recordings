@@ -19,7 +19,7 @@ You have two options:
 Programming languages required: 
 - MATLAB2019 upwards
 - Python
-Please download CellExplorer toolbox from here and add it to the MATLAB path. 
+Please download CellExplorer toolbox from [here](https://github.com/petersenpeter/CellExplorer/archive/master.zip) and add it to the MATLAB path. 
 Install Phy in your intended environment with the following commands: 
 ```
 conda activate EPhysWorkshop
