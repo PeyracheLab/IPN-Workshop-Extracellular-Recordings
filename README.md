@@ -13,9 +13,9 @@ Here is the shared [*dataset*](https://utoronto-my.sharepoint.com/:f:/g/personal
 
 ## Installation insructions
 You have two options: 
-### Virtual Machine
+#### 1) Virtual Machine
  
-### Your machine
+#### 2) Your machine
 Programming languages required: 
 - MATLAB2019 upwards
 - Python
