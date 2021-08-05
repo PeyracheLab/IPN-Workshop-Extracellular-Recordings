@@ -25,9 +25,9 @@ August 9-13, 2021
 
 ## Resources 
 
-1. [Data Thalamus-CA1](https://www.dropbox.com/s/7r1wxs9s1zcc1q4/A2926-200311.tar.gz?dl=1)
-2. [Neuroscope](neuroscope.md)
-3. [Kilosort code](ipn_kilosort.md)
-4. [Kluster](kluster.md)
-5. [neuroseries](ipn_neuroseries.md)
+1. [Neuroscope](neuroscope.md)
+2. [Kilosort code](ipn_kilosort.md)
+3. [Kluster](kluster.md)
+4. [neuroseries](ipn_neuroseries.md)
+5. [CellExplorer](https://cellexplorer.org/)
 6. [Brainstorm](ipn_brainstorm.md)
