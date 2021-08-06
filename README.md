@@ -47,8 +47,6 @@ August 9-13, 2021
 ## Resources 
 
 1. [Neuroscope](neuroscope.md)
-2. [Kilosort code](ipn_kilosort.md)
-3. [Kluster](kluster.md)
-4. [neuroseries](ipn_neuroseries.md)
-5. [CellExplorer](https://cellexplorer.org/)
-6. [Brainstorm](ipn_brainstorm.md)
+2. [Kluster](kluster.md)
+3. [CellExplorer](https://cellexplorer.org/)
+4. [Brainstorm](ipn_brainstorm.md)
