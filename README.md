@@ -32,14 +32,14 @@ You will need MATLAB2019 upwards and Python. University students have a MATLAB l
 1. [Neuroscope](http://neurosuite.sourceforge.net/)
 2. [Kluster](http://klustersoftware.com/)
 3. [KiloSort](https://github.com/MouseLand/Kilosort)
-4. Phy with the following instructions : 
+4. [Phy](https://phy.readthedocs.io/en/latest/) with the following instructions: 
 ```
 conda create -n EPhysWorkshop python=3.7 pip numpy matplotlib scipy scikit-learn h5py pyqt cython pillow -y
 conda activate EPhysWorkshop
 pip install phy --pre --upgrade
 ```
 5. [Neuroseries](https://github.com/PeyracheLab/IPN-Workshop-Extracellular-Recordings/tree/main/ipn-neuroseries)
-You can create a conda environnment using the following package [list](https://github.com/PeyracheLab/IPN-Workshop-Extracellular-Recordings/blob/main/ipn-neuroseries/ipn_env.yml) :
+You can create a conda environnment using the following package [list](https://github.com/PeyracheLab/IPN-Workshop-Extracellular-Recordings/blob/main/ipn-neuroseries/ipn_env.yml):
 ```
 conda create -f ipn_env.yml
 conda activate ipn
