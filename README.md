@@ -30,11 +30,8 @@ Steps to install the virtual machine :
 You will need MATLAB2019 upwards and Python. University students have a MATLAB license through their universities and can log in to Mathworks and download latest version of Matlab. We recommend installing Python through Anaconda distribution. For matlab codes, please add it to the MATLAB path. For python code, please create a conda environnment (suggestion for the name of the environment: EPhysWorkshop). The following softwares and code will be needed :
 
 1. [Neuroscope](neuroscope.md)
-
 2. [Kluster](kluster.md)
-
 3. [KiloSort](https://github.com/PeyracheLab/IPN-Workshop-Extracellular-Recordings/tree/main/ipn-kilosort)
-
 4. Phy with the following instructions : 
 ```
 conda create -n EPhysWorkshop python=3.7 pip numpy matplotlib scipy scikit-learn h5py pyqt cython pillow -y
@@ -47,9 +44,7 @@ You can create a conda environnment using the following package [list](https://g
 conda create -f ipn_env.yml
 conda activate ipn
  ```
- 
 6. Please download CellExplorer toolbox from [here](https://github.com/petersenpeter/CellExplorer/archive/master.zip) and add it to the MATLAB path. 
-
 7. [Brainstorm](ipn_brainstorm.md)
  
 
