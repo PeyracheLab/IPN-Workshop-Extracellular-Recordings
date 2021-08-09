@@ -27,15 +27,15 @@ Steps to install the virtual machine :
  
 #### 2) Your machine
 
-You will need MATLAB2019 upwards and Python. University students have a MATLAB license through their universities and can log in to Mathworks and download latest version of Matlab. We recommend installing Python through Anaconda distribution. For matlab codes, please add it to the MATLAB path. For python code, please create a conda environnment (suggestion for the name of the environment: EPhysWorkshop). The following softwares and code will be needed :
+You will need MATLAB2019 upwards and Python. University students have a MATLAB license through their universities and can log in to Mathworks and download latest version of Matlab. We recommend installing Python through Anaconda distribution. For matlab codes, please add it to the MATLAB path. For python code, please create a conda environnment (suggestion for the name of the environment: Ephys, or ipn). The following softwares and code will be needed :
 
 1. [Neuroscope](http://neurosuite.sourceforge.net/)
 2. [Kluster](http://klustersoftware.com/)
 3. [KiloSort](https://github.com/MouseLand/Kilosort)
 4. [Phy](https://phy.readthedocs.io/en/latest/) with the following instructions: 
 ```
-conda create -n EPhysWorkshop python=3.7 pip numpy matplotlib scipy scikit-learn h5py pyqt cython pillow -y
-conda activate EPhysWorkshop
+conda create -n EPhys python=3.7 pip numpy matplotlib scipy scikit-learn h5py pyqt cython pillow -y
+conda activate Ephys
 pip install phy --pre --upgrade
 ```
 5. [Neuroseries](https://github.com/PeyracheLab/IPN-Workshop-Extracellular-Recordings/tree/main/ipn-neuroseries)
