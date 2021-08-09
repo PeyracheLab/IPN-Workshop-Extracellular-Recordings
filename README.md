@@ -30,7 +30,7 @@ Steps to install the virtual machine :
 You will need MATLAB2019 upwards and Python. University students have a MATLAB license through their universities and can log in to Mathworks and download latest version of Matlab. We recommend installing Python through Anaconda distribution. For matlab codes, please add it to the MATLAB path. For python code, please create a conda environnment (suggestion for the name of the environment: Ephys, or ipn). The following softwares and code will be needed :
 
 1. [Neuroscope](http://neurosuite.sourceforge.net/)
-2. [Kluster](http://klustersoftware.com/)
+2. [Klusters](http://neurosuite.sourceforge.net/)
 3. [KiloSort](https://github.com/MouseLand/Kilosort)
 4. [Phy](https://phy.readthedocs.io/en/latest/) with the following instructions: 
 ```
