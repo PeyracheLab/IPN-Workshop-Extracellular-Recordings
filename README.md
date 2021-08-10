@@ -31,7 +31,7 @@ You will need MATLAB2019 upwards and Python. University students have a MATLAB l
 
 1. [Neuroscope](http://neurosuite.sourceforge.net/)
 2. [Klusters](http://neurosuite.sourceforge.net/)
-3. [KiloSort](https://github.com/MouseLand/Kilosort) please follow their instructions for compiling 
+3. [KiloSort](https://github.com/MouseLand/Kilosort). We are using KiloSort 1 for this workshop. Please follow instructions [here](https://github.com/PeyracheLab/IPN-Workshop-Extracellular-Recordings/tree/main/ipn-kilosort/kilosort1) in this repo to compile the mex file. 
 4. [Phy](https://phy.readthedocs.io/en/latest/) with the following instructions: 
 ```
 conda create -n EPhys python=3.7 pip numpy matplotlib scipy scikit-learn h5py pyqt cython pillow -y
