@@ -44,7 +44,7 @@ You can create a conda environnment using the following package [list](https://g
 conda create -f ipn_env.yml
 conda activate ipn
  ```
-6. Please download [CellExplorer](https://github.com/petersenpeter/CellExplorer/archive/master.zip)toolbox and add it to the MATLAB path. 
+6. Please download [CellExplorer](https://github.com/petersenpeter/CellExplorer/archive/master.zip) toolbox and add it to the MATLAB path. 
 7. [Brainstorm](ipn_brainstorm.md)
  
 
